@@ -82,10 +82,7 @@ public class CsvQueryProcessor extends QueryProcessingEngine {
 		// checking for date format dd-month-yyyy
 
 		// checking for date format yyyy-mm-dd
-
-			Object obj;
 			int i = 0;
-			String type = "";
 			br = new BufferedReader(new FileReader(fileName));
 			String headerRow = br.readLine();
 			String headerArgs[] = headerRow.split(",");
